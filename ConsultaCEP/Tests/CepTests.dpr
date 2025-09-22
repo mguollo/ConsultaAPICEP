@@ -6,8 +6,7 @@ uses
   GUITestRunner,
   uCepHelperTests in 'uCepHelperTests.pas',
   uViaCepParserTests in 'uViaCepParserTests.pas',
-  uAddressTests in 'uAddressTests.pas',
-  uAddressRepositoryTests in 'uAddressRepositoryTests.pas',
+  uAddressTests in 'uAddressTests.pas',  
   uViaCepServiceTests in 'uViaCepServiceTests.pas';
 
 {$R *.res}
