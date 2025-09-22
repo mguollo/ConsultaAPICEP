@@ -69,24 +69,21 @@ A aplicação foi estruturada em **camadas**:
 
 ## ▶️ Execução do Projeto
 
-1. Abra o projeto `ConsultaCEP.dproj` no **Delphi**  
-2. Configure o componente `TFDConnection`:
-   - Driver: `SQLite`
-   - Database: `consulta.db` (será criado automaticamente se não existir)
-3. Compile e execute o projeto (`F9`)  
+1. Abra o grupo de projeto `CEP.groupproj` no **Delphi**
+2. Neste grupo já consta o projeto de consulta do CEP e de testes unitários
+3. Compile e execute o projeto (`F9`)
 4. Informe um CEP ou Endereço Completo e clique em **Consultar**  
 
 ---
 
 ## 🧪 Executando Testes Unitários
 
-1. Abra o projeto `CepTests.dpr` na pasta `Tests`  
+1. Selecione o projeto `CepTests.dpr`(pasta Tests)  
 2. Compile e rode (`F9`)  
 3. O **GUITestRunner** será aberto exibindo todas as suites de teste:  
    - `TCepHelperTests`  
    - `TViaCepParserTests`  
-   - `TAddressTests`  
-   - `TAddressRepositoryTests`  
+   - `TAddressTests`     
    - `TViaCepServiceTests`  
 4. Clique em **Run** para validar todos os testes  
 
